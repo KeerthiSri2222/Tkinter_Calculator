@@ -38,8 +38,8 @@ root.resizable(False,False)#can't resize disables resizinng of window
 entry = tk.Entry(
     root,
     font=("sens-serif",20),
-    bg="white",
-    fg="black",
+    bg="black",
+    fg="white",
     bd=0,
     justify="right"
 )
@@ -76,7 +76,7 @@ for b in buttons:
         font=("Calibri",14),
         width=5,
         height=2,
-        bg="#5de1f2" if b in "+-*/" else "#3a3a3a",
+        bg="#5de1f2" if b in "+-*/" else "black",
         fg="black" if b in "+-*/" else "white",
         bd=0
     ).grid(row=r,column=c,padx=6,pady=6)
